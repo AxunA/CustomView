@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Base-->
+    <color name="transparent">#00000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <!-- DigitalClickItem -->
+    <color name="dci_layout_normal">#ffffff</color>
+    <color name="dci_layout_pressed">#e8e8e8</color>
+
+    <color name="comm_line_color">#e6e6e6</color>
+    <color name="comm_text_color">#333333</color>
+    <color name="comm_tis_text_color">#999999</color>
+</resources>

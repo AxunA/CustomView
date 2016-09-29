@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DigitalClickItem">
+        <attr name="left_icon" format="integer"/>
+        <attr name="right_icon" format="integer"/>
+        <attr name="left_text" format="integer"/>
+        <attr name="right_text" format="integer"/>
+        <attr name="isShowRightIcon" format="boolean"/>
+        <attr name="isShowLine" format="boolean"/>
+    </declare-styleable>
+
+</resources>

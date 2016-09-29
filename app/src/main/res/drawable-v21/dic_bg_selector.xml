@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/comm_line_color">
+    <item android:state_pressed="false">
+        <shape>
+        	<solid android:color="@color/dci_layout_normal"/>
+            <!-- 圆角 -->
+            <corners
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:topLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+            />
+
+            <stroke
+                android:width="0dp"
+                android:color="#e8e8e8" />
+        </shape>
+    </item>
+
+
+</ripple>
+
