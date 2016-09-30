@@ -69,4 +69,11 @@
     </style>
     <!-- View end-->
 
+    <style name="DotProgressStyle">
+        <item name="android:layout_height">14dp</item>
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="dot_color">@color/colorPrimary</item>
+    </style>
+
 </resources>

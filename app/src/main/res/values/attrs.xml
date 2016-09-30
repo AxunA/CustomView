@@ -9,4 +9,10 @@
         <attr name="isShowLine" format="boolean"/>
     </declare-styleable>
 
+    <declare-styleable name="DotProgressView">
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="dot_color" format="integer" />
+    </declare-styleable>
+
 </resources>

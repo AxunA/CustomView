@@ -4,4 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="comm_margin">16dp</dimen>
+
+    <!-- MainActivity -->
+    <dimen name="splash_state_info_margin_bottom">50dp</dimen>
 </resources>
