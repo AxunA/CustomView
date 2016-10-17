@@ -32,7 +32,7 @@
     </style>
     <style name="BaseImageView.Right">
         <item name="android:layout_marginLeft">10dp</item>
-        <item name="android:src">@mipmap/icon_right_gray</item>
+        <item name="android:src">@drawable/icon_right_gray</item>
         <item name="android:layout_alignParentRight">true</item>
     </style>
     <!--  ImageView end -->

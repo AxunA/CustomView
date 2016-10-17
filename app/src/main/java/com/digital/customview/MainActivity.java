@@ -17,12 +17,13 @@ public class MainActivity extends AppCompatActivity {
         ((DotProgressView)findViewById(R.id.dot1)).startDelay(120);
         ((DotProgressView)findViewById(R.id.dot2)).startDelay(360);
         ((DotProgressView)findViewById(R.id.dot3)).startDelay(640);
+
     }
 
     public void onClick(View view){
         switch (view.getId()){
             case R.id.dci_ac_info:
-                showToast(getString(R.string.click));
+
                 break;
         }
     }
