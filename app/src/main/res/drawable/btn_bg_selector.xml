@@ -1,43 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true" >
-        <shape
-            xmlns:android="http://schemas.android.com/apk/res/android"
-        >
+    <item android:state_pressed="true">
+        <shape>
             <corners
-                android:radius="@dimen/activity_horizontal_margin"/>
-
+                android:radius="@dimen/comm_corner"/>
             <solid
                 android:color="@color/colorPrimary"/>
-
             <gradient
                 android:angle="45"
-                android:centerColor="@color/black"
                 android:endColor="@color/colorAccent"
-                android:gradientRadius="90"
-                android:startColor="@color/colorPrimary"
-            />
+                android:startColor="@color/colorPrimary"/>
         </shape>
     </item>
 
-    <item >
-        <shape
-            xmlns:android="http://schemas.android.com/apk/res/android"
-        >
+    <item android:state_pressed="false">
+        <shape>
             <corners
-                android:radius="@dimen/activity_horizontal_margin"/>
-
+                android:radius="@dimen/comm_corner"/>
             <solid
                 android:color="@color/colorPrimary"/>
-
             <gradient
                 android:angle="90"
-                android:centerColor="@color/black"
                 android:endColor="@color/colorAccent"
-                android:gradientRadius="90"
-                android:startColor="@color/colorPrimary"
-            />
+                android:startColor="@color/colorPrimary"/>
         </shape>
     </item>
 </selector>
