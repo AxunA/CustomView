@@ -76,4 +76,16 @@
         <item name="dot_color">@color/colorPrimary</item>
     </style>
 
+    <!--MarqueeText -->
+    <style name="MarqueeTextStyle">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
 </resources>

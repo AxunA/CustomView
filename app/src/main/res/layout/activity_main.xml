@@ -13,9 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        app:isShowLine="true"
         app:left_icon="@drawable/icon_mine_ac_info"
         app:left_text="@string/account_info"/>
+
+    <com.digital.customview.view.verticalViewPager.VerticalViewPager
+        android:id="@+id/vvp_broadcast"
+        android:layout_below="@+id/dci_ac_info"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
