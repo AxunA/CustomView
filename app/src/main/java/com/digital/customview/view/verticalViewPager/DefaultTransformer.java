@@ -5,7 +5,6 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * Created by fangzhengyou on 15/11/30.
  * 自定义Pager切换模式
  */
 class DefaultTransformer implements ViewPager.PageTransformer {

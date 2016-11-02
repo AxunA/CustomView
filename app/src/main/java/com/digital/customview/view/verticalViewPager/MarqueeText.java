@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 /**
  * Created by fangzhengyou on 15/8/12.
- * 跑马灯View ，用于首页消息栏
+ * 跑马灯TextView
  */
 public class MarqueeText extends TextView {
     public MarqueeText(Context context, AttributeSet attrs) {
