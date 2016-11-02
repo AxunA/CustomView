@@ -88,4 +88,5 @@
         <item name="android:fadingEdge">horizontal</item>
         <item name="android:layout_centerInParent">true</item>
     </style>
+
 </resources>
