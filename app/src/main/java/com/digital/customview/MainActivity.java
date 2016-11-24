@@ -19,6 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements DigitalBannerView.BannerItemClickListener {
 
+    private Toast mToast;
     private ViewGroup mContainerView;
 
     @Override
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
         bannerView.initPageView(mImageAddressList, this);
 
         mContainerView=(ViewGroup)findViewById(R.id.ll_container);
+
+        mToast = Toast.makeText(getApplicationContext(), "确定退出？", Toast.LENGTH_SHORT);
     }
 
     public void onClick(View view) {
@@ -80,4 +83,15 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
     public void onBannerItemClick(int item) {
         showToast(String.valueOf(item));
     }
+
+    @Override
+    public void onBackPressed() {
+        if(null == mToast.getView().getParent()){
+            mToast.show();
+        }else{
+            System.exit(0);
+        }
+    }
+
+
 }
