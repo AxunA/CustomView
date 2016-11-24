@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
             case R.id.dci_show_text:
                 //实例化一个子View
                 View newView = LayoutInflater.from(this).inflate(
-                        R.layout.list_item, mContainerView, false);
+                        R.layout.layout_animation_item, mContainerView, false);
                 newView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
