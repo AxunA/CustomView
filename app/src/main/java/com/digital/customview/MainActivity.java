@@ -3,7 +3,9 @@ package com.digital.customview;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.digital.customview.view.DigitalBannerView;
@@ -16,6 +18,8 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements DigitalBannerView.BannerItemClickListener {
+
+    private ViewGroup mContainerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
         mImageAddressList.add(R.drawable.banner_2);
         DigitalBannerView bannerView = (DigitalBannerView) findViewById(R.id.bv_img);
         bannerView.initPageView(mImageAddressList, this);
+
+        mContainerView=(ViewGroup)findViewById(R.id.ll_container);
     }
 
     public void onClick(View view) {
@@ -48,6 +54,20 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
                 Intent intent = new Intent(this, TestActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.activity_open_in, R.anim.activity_open_out);
+                break;
+            case R.id.dci_show_text:
+                //实例化一个子View
+                View newView = LayoutInflater.from(this).inflate(
+                        R.layout.list_item, mContainerView, false);
+                newView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mContainerView.removeView(v);
+                    }
+                });
+                mContainerView.addView(newView);
+                int childCount=mContainerView.getChildCount();
+                showToast(childCount+"");
                 break;
         }
     }
