@@ -8,6 +8,6 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:padding="@dimen/activity_vertical_margin"
-        android:text="@string/account_info"/>
+        android:text="@string/flex_box_layout"/>
 
 </LinearLayout>

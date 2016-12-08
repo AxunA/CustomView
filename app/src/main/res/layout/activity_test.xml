@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:id="@+id/activity_main"
+<com.google.android.flexbox.FlexboxLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flex"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.digital.customview.TestActivity">
+    android:layout_height="wrap_content"
+    app:alignContent="stretch"
+    app:justifyContent="flex_start"
+    app:alignItems="stretch"
+    app:flexWrap="wrap">
 
-</LinearLayout>
+    <TextView
+        style="@style/FlexTextItem"
+        android:text="20dfdfdf%"/>
+
+    <TextView
+        style="@style/FlexTextItem"
+        android:text="20%"/>
+
+    <TextView
+        style="@style/FlexTextItem"
+        android:text="59dfdfdfd%"/>
+    <TextView
+        style="@style/FlexTextItem"
+        android:text="20%"/>
+
+
+</com.google.android.flexbox.FlexboxLayout>

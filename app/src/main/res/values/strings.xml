@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">CustomView</string>
 
-    <string name="account_info">账户信息</string>
+    <string name="flex_box_layout">FlexboxLayout</string>
     <string name="click">点击</string>
     <string name="show_text">显示Text</string>
+    <string name="add_item">添加Item</string>
 </resources>

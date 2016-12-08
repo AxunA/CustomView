@@ -17,7 +17,7 @@
         </activity>
 
         <activity android:name=".TestActivity"
-        android:label="@string/account_info"/>
+                  android:label="@string/flex_box_layout"/>
     </application>
 
 </manifest>

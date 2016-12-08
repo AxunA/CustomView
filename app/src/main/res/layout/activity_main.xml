@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:onClick="onClick"
             app:left_icon="@drawable/icon_mine_ac_info"
-            app:left_text="@string/account_info"/>
+            app:left_text="@string/flex_box_layout"/>
 
         <com.digital.customview.view.verticalViewPager.VerticalViewPager
             android:id="@+id/vvp_broadcast"

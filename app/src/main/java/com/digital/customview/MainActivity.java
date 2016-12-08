@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements DigitalBannerView
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.dci_ac_info:
-                showToast(getString(R.string.account_info));
+                showToast(getString(R.string.flex_box_layout));
                 Intent intent = new Intent(this, TestActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.activity_open_in, R.anim.activity_open_out);
